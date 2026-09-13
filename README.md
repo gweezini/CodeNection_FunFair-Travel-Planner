@@ -4,9 +4,9 @@
 
 **Problem Statement:** Travel Planner
 
-**Video Presentation (For animation purposes only — see video for full content):** \[[https://youtu.be/kBjFbEip0bo](https://youtu.be/kBjFbEip0bo)\]
+**Video Presentation:** \[[https://youtu.be/kBjFbEip0bo](https://youtu.be/kBjFbEip0bo)\]
 
-**Presentation Slides:**&nbsp;
+**Presentation Slides (For animation purposes only — see video for full content):**&nbsp;
 
 \[[https://drive.google.com/drive/folders/1lLnOI565IFmXs38RmcxVbwfttv6qlaJF?usp=sharing](https://drive.google.com/drive/folders/1lLnOI565IFmXs38RmcxVbwfttv6qlaJF?usp=sharing)\]
 
