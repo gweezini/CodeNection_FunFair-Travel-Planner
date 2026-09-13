@@ -61,8 +61,6 @@ FunFair is a group travel planning platform built around preference conflict res
 
 ### **Feature Set**
 
-&nbsp;
-
 | Feature | Purpose |
 | ----- | ----- |
 | **Private Preferences** | Travellers independently mark each activity as **Want, Flexible, or Prefer Not**, before other people's opinions can influence their choices. |
@@ -219,12 +217,8 @@ Most AI travel planners focus on generating and organising itineraries. FunFair 
 
 > **The key difference is not preference collection, but preference conflict resolution.**
 
-&nbsp;
-
 
 ### Comparison:
-
-&nbsp;
 
 | Capability | Wanderlog | TripIt | Roamly | FunFair |
 | ----- | ----- | ----- | ----- | ----- |
@@ -239,7 +233,6 @@ Most AI travel planners focus on generating and organising itineraries. FunFair 
 | Consent before sacrifice | — | — | — | **✓** |
 | Rebalancing after conflict | Some replanning | — | AI editing | **✓** |
 
-&nbsp;
 
 *Roamly also uses traveller preferences to support group itinerary generation, while FunFair focuses on **what happens when those preferences still cannot be reconciled**.*&nbsp;
 
@@ -269,8 +262,6 @@ AI recommends; humans consent.&nbsp;
 
 **Tech stack**
 
-&nbsp;
-
 | Layer | Technology | Why we chose it | Constraints to expect |
 | :---- | :---- | :---- | :---- |
 | Frontend | [Next.js](http://Next.js/) \+ React \+ TypeScript | Component-based development suits FunFair's multi-step flow, including preferences, conflict resolution, consent, and itinerary editing. TypeScript also helps keep trip and preference data structured and consistent. | The current prototype is built with HTML/CSS/JavaScript, so the MVP will migrate the core flow incrementally rather than rebuilding every feature at once.&nbsp; |
@@ -285,7 +276,6 @@ AI recommends; humans consent.&nbsp;
 | Travel Handbook Export | jsPDF | Generates the Travel Handbook directly in the browser without requiring a separate PDF-generation service. | Emoji and unsupported fonts require special handling, while remote images may face CORS restrictions. |
 | Hosting | Vercel | Integrates naturally with Next.js and provides simple deployment for the hackathon MVP. | Free-tier serverless and bandwidth limits should be considered if usage grows. |
 
-&nbsp;
 
 ### **Core Decision Logic**
 
@@ -299,11 +289,8 @@ The prototype currently uses these factors to recommend the strongest shared fit
 
 This separation allows AI to assist with recommendations while deterministic application rules continue to enforce important constraints.
 
-&nbsp;
 
-&nbsp;
-
-**System architecture diagram** 
+### **System architecture diagram** 
 
 ![][image13]
 
@@ -384,8 +371,6 @@ To keep the project realistic within the hackathon period, the MVP will not atte
 The MVP may use a curated Tokyo destination dataset and mocked or limited external data where necessary. This allows us to focus testing on FunFair's main innovation: fair preference-conflict resolution.
 
 ### **Development Timeline**
-
-&nbsp;
 
 | Timeline | Focus | Planned Work | Expected Output |
 | ----- | ----- | ----- | ----- |
