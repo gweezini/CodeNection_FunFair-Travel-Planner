@@ -187,7 +187,7 @@ Even if you disagreed with a piece of feedback, you can say so and explain why. 
 
 **UI Prototype:**[https://funfairplanner.netlify.app/](https://funfairplanner.netlify.app/)&nbsp;
 
-| Group Constraints  ![][image3] | Before any personal preference is collected, the group locks shared, non-negotiable constraints — trip dates, a hard airport deadline, and a fixed Day 2 dinner. Individual budgets are handled privately in the next step.&nbsp; |
+| Group Constraints  ![Constraints](https://github.com/gweezini/CodeNection_FunFair-Travel-Planner/blob/main/Constraint.png)| Before any personal preference is collected, the group locks shared, non-negotiable constraints — trip dates, a hard airport deadline, and a fixed Day 2 dinner. Individual budgets are handled privately in the next step.&nbsp; |
 | ----- | :---- |
 | **Preference Swipe** ![][image4] | Each traveller privately swipes every activity into Prefer Not / Flexible / Want, one card at a time, before seeing anyone else's choices.&nbsp; |
 | **Golden Tickets** ![][image5] | From their own Wants, each traveller chooses up to 2 protected picks and can see what the rest of the group has already chosen, helping to identify possible clashes early.&nbsp; |
