@@ -179,9 +179,6 @@ We ran a SCAMPER session to explore different ways to solve schedule clashes. It
 | Date | Mentor | Feedback Received | What Was Changed |
 | :---- | :---- | :---- | :---- |
 | 9/9/2026 | Zach Khong | The Heart Allocation step before Golden Tickets often gave very similar heart values across different activities. When the itinerary could not fit everything, the app still forced travellers to choose between activities that had almost the same priority. Since Golden Tickets were already the activities that travellers considered as “must-go”, this made travellers choose again between activities they had already shown as their top priorities.  The trade-off screen required travellers to read a separate explanation for each option, such as Third Way and Split & Reunite, on a different page before they could vote. This added an unnecessary step before making the actual decision.  The satisfaction score was shown as a raw fraction, such as “4/4”. Testers felt that the number alone did not clearly explain what the group had achieved and could seem like an arbitrary number.  The Compromise Coin did not need its own dedicated screen to show both travellers’ coin changes, such as “me \+0, Alice \+1”. This information could be handled in the background instead.  When a trip is already ongoing, the homepage should show the current itinerary directly instead of requiring travellers to navigate to it manually.  Weather was not included in the itinerary, which missed an opportunity to demonstrate the AI Re-plan feature.&nbsp; | The Heart Allocation step was removed completely. Travellers now go directly from swiping to naming their Golden Tickets. This removes the extra and unnecessary step of prioritising the activities again.  The explanation and voting were combined into one screen. The main option, such as “Keep your pick”, is shown first, while the alternative options are shown in smaller text underneath. Travellers can tap the alternative options to vote immediately without going through a separate explanation and voting process.  The raw score was replaced with category labels, such as “Compatible”. This allows the result to show the type of outcome the group achieved instead of only showing a number.  The separate Compromise Coin screen was removed. Only the affected traveller’s coin change is shown through a small popup. The current user’s own point-of-view change is tracked silently by the backend without showing a separate screen.  The system now calculates the current trip day based on the traveller’s arrival and return flight dates, such as Day 2\. When travellers open the itinerary, it will directly show the schedule for the current day.  A mocked weather forecast was added for each day in the itinerary. The weather information is now used to briefly demonstrate the AI Re-plan flow. For example, a bad weather forecast can trigger the rescheduling mechanism, which is shown lightly in this version.&nbsp; |
-| 11/9/2026 | Zach Khong |  |  |
-
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor’s advice, it will still count as engaging with it.
 
 ## **3\. Design & Prototype**
 
@@ -204,10 +201,8 @@ Even if you disagreed with a piece of feedback, you can say so and explain why. 
 ## **4\. What Makes It Different**
 
 Most AI travel planners focus on generating and organising itineraries. FunFair focuses on resolving preference conflicts when important group priorities cannot all fit into the same schedule.
-
-&nbsp;
-
-Core Innovations:
+<br><br>
+### Core Innovations:
 
 | Feature | What Makes It Different |
 | ----- | ----- |
@@ -226,11 +221,8 @@ Core Innovations:
 
 &nbsp;
 
-&nbsp;
 
-Comparison:
-
-&nbsp;
+### Comparison:
 
 &nbsp;
 
@@ -311,7 +303,7 @@ This separation allows AI to assist with recommendations while deterministic app
 
 &nbsp;
 
-**System architecture diagram** (Optional, if you feel it would help the reviewers understand your architecture better)
+**System architecture diagram** 
 
 ![][image13]
 
