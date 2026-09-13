@@ -164,26 +164,13 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 
 ### **2.2 Ideation Boards**
 
-![][]
+![Problem Tree](https://github.com/gweezini/CodeNection_FunFair-Travel-Planner/blob/main/ProblemTree.jpg)  
 
 This board shows our core problem: travellers have different priorities that cannot fit into just one schedule. It explains how limited time and different budgets lead to silent unhappiness and damage friendships during the trip.
 
-![Scamper][https://github.com/gweezini/CodeNection_FunFair-Travel-Planner/blob/main/Scamper.jpg]
+![Scamper](https://github.com/gweezini/CodeNection_FunFair-Travel-Planner/blob/main/Scamper.jpg)  
 
-We ran a SCAMPER session to explore different ways to solve schedule clashes. It shows our team's creative process, including bad ideas we dropped (like total AI control) and good ones we kept (like the Consent Gate).
-
-**IMPORTANT:** You can express this in any way you like, including but not limited to:
-
-1. Mindmaps  
-2. Problem trees  
-3. Flowcharts  
-4. User flows  
-5. Crazy eights  
-6. Affinity diagrams  
-7. SCAMPER grids  
-8. Fishbone diagrams  
-9. 5 Whys chains  
-10. Any other scribbles :)
+We ran a SCAMPER session to explore different ways to solve schedule clashes. It shows our team's creative process, including bad ideas we dropped (like total AI control) and good ones we kept (like the Consent Gate).  
 
 &nbsp;
 
