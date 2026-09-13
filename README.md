@@ -164,11 +164,11 @@ Table of every distinct idea generated, with why each was kept or dropped, order
 
 ### **2.2 Ideation Boards**
 
-![][image1]
+![][]
 
 This board shows our core problem: travellers have different priorities that cannot fit into just one schedule. It explains how limited time and different budgets lead to silent unhappiness and damage friendships during the trip.
 
-![][image2]
+![Scamper][https://github.com/gweezini/CodeNection_FunFair-Travel-Planner/blob/main/Scamper.jpg]
 
 We ran a SCAMPER session to explore different ways to solve schedule clashes. It shows our team's creative process, including bad ideas we dropped (like total AI control) and good ones we kept (like the Consent Gate).
 
