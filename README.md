@@ -197,7 +197,7 @@ Even if you disagreed with a piece of feedback, you can say so and explain why. 
 | **Compromise Logged ** ![][image9] | When a protected slot is yielded, the trade is confirmed and a Compromise Coin is credited to that traveller's balance. Coins carry forward: a traveller who has already sacrificed more accumulates priority, making them more likely to win the next genuine trade-off — this is what turns "fairness" into something mechanical rather than just a feeling.&nbsp; |
 | **Finalized Itinerary \+ Weather** ![][image10] | The settled itinerary shows live per-day weather alongside Add Stop and Re-plan controls, so a forecast change can trigger an AI Re-plan directly from here.&nbsp; |
 | **Mystery Box Destination** ![][image11] | Tapping Add Stop on any open slot offers a Mystery Box: travellers pick a theme and choose whether to roll a Group surprise (everyone shares the reveal) or a Personal one, then roll a random destination straight into the gap instead of leaving it blank.&nbsp; |
-| ![][image12] | The finalised trip may be turned into a keepsake PDF, including a cover page, a one-page itinerary index, and a dedicated page for each stop. Each page includes information about the local culture and history, a “while you’re there” tip, a local food recommendation, and a fun fact.&nbsp; |
+| **Trip Summary and Travel HandBook**![][image12] | The finalised trip may be turned into a keepsake PDF, including a cover page, a one-page itinerary index, and a dedicated page for each stop. Each page includes information about the local culture and history, a “while you’re there” tip, a local food recommendation, and a fun fact.&nbsp; |
 
 &nbsp;
 
